@@ -16,9 +16,9 @@ describe('Google', () => {
         cy.xpath('/html/body/div[7]/div[2]/div[9]/div[2]/div/div[2]/div[2]/div/div/div[4]/div/div[1]/a').should('have.attr','href').and( 'include','https://www.hausdorf.ru/')
         cy.xpath('/html/body/div[7]/div[2]/div[9]/div[2]/div/div[2]/div[2]/div/div/div[5]/div/div[1]/a').should('have.attr','href').and( 'include','https://www.bork.kz')
         
-        cy.xpath('/html/body/div[7]/div[2]/div[9]/div[2]/div/div[2]/div[2]/div/div/div[6]/div/div[1]/a').should('have.attr','href').and( 'include','https://otziv-otziv.ru/')
+        cy.xpath('/html/body/div[7]/div[2]/div[9]/div[2]/div/div[2]/div[2]/div/div/div[7]/div/div[1]/a').should('have.attr','href').and( 'include','https://otziv-otziv.ru/')
         
-        cy.xpath('/html/body/div[7]/div[2]/div[9]/div[2]/div/div[2]/div[2]/div/div/div[7]/div/div[1]/a').should('have.attr','href').and( 'include','https://www.e-katalog.ru/')
+        cy.xpath('/html/body/div[7]/div[2]/div[9]/div[2]/div/div[2]/div[2]/div/div/div[6]/div/div[1]/a').should('have.attr','href').and( 'include','https://www.e-katalog.ru/')
         cy.xpath('/html/body/div[7]/div[2]/div[9]/div[2]/div/div[2]/div[2]/div/div/div[8]/div/div[1]/a').should('have.attr','href').and( 'include','https://m.fotosklad.ru/')
         cy.xpath('/html/body/div[7]/div[2]/div[9]/div[2]/div/div[2]/div[2]/div/div/div[9]/div/div[1]/a').should('have.attr','href').and( 'include','https://www.ozon.ru/')
         cy.xpath('/html/body/div[7]/div[2]/div[9]/div[2]/div/div[2]/div[2]/div/div/div[10]/div/div[1]/a').should('have.attr','href').and( 'include','https://catalog.onliner.by/')
